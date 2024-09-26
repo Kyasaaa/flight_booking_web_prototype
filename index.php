@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Save Booking</title>
+    <title>Flight Booking System</title>
 </head>
 <body>
-    <h2>Flight Booking Form</h2>
+    <h1>Welcome to the Flight Booking System</h1>
+
+    <h2>Available Options</h2>
+    <ul>
+        <li><a href="list_bookings.php">View All Bookings (Update/Delete)</a></li>
+    </ul>
+
+    <h2>Book a Flight Now</h2>
     <form method="POST" action="save_booking.php">
         <label for="flight_id">Flight ID:</label>
         <input type="number" name="flight_id" required><br><br>
